@@ -13,7 +13,7 @@
 
 	<FactionDef ParentName="KigYarFactionBase">
 		<defName>KigYarPlayerColony</defName>
-		<label>brave kig-yar</label>
+		<label>A Kig-Yar Band</label>
 		<description>Your own colony.</description>
 
 		<isPlayer>true</isPlayer>

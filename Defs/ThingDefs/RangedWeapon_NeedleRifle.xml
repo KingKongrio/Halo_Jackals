@@ -77,7 +77,7 @@
 		<defName>Bullet_BlamiteNeedleRifle</defName>
 		<label>needle rifle blamite</label>
 		<graphicData>
-			<texPath>Things/Projectile/CovenantCarbineShot</texPath>
+			<texPath>Things/Projectile/BlamiteProjectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
