@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<!--Adults-->
+	<AlienRace.BackstoryDef>
+
+		<defName>CovenantRemnantSoldier</defName>
+		<title>Covenant Remnant Soldier</title>
+		<titleShort>soldier</titleShort>
+		<baseDescription>[PAWN_nameDef] is a soldier for a Covenant Remnant</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+			<li>SpecialKigYarBackstory</li>
+		</spawnCategories>
+
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarMerchant</defName>
+		<title>Kig-Yar merchant</title>
+		<titleShort>merchant</titleShort>
+		<baseDescription>[PAWN_nameDef] This individual follows many of the customs his kind is known for.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarDoctor</defName>
+		<title>Kig-Yar doctor</title>
+		<titleShort>doctor</titleShort>
+		<baseDescription>This individual heals his kind... for a price.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarMercenary</defName>
+		<title>Kig_Yar mercenary</title>
+		<titleShort>mercenary</titleShort>
+		<baseDescription>[PAWN_nameDef] Offers his services as a soldier for the highest bider.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+			<li>SpecialKigYarBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarSniper</defName>
+		<title>Kig_Yar Sniper</title>
+		<titleShort>sniper</titleShort>
+		<baseDescription>[PAWN_nameDef] served a Covenant Remnant as a sniper.</baseDescription>
+		<slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+			<li>SpecialKigYarBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>12</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarPirate</defName>
+		<title>Kig-Yar Pirate</title>
+		<titleShort>pirate</titleShort>
+		<baseDescription>[PAWN_nameDef] Partakes in the Kig-Yar's most ancient custom, piracy. Young chicks look up to him and wish to one day reach his lifestyle</baseDescription>
+		<slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>12</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>10</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarPiratequeen</defName>
+		<title>Kig-Yar Pirate Queen</title>
+		<titleShort>pirate queen</titleShort>
+		<baseDescription>[PAWN_nameDef] Partakes is the very top of Kig Yar society</baseDescription>
+		<slot>Adulthood</slot>
+		<maleCommonality>0</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>10</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarScavenger</defName>
+		<title>Kig-Yar Scavenger</title>
+		<titleShort>scavenger</titleShort>
+		<baseDescription>[PAWN_nameDef] is a scavenger</baseDescription>
+		<slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>7</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarClanMother</defName>
+		<title>Kig-Yar Clan Mother</title>
+		<titleShort>clan mother</titleShort>
+		<baseDescription>[PAWN_nameDef] used to spend her days caring for the chicks of her clan.</baseDescription>
+		<slot>Adulthood</slot>
+		<maleCommonality>0</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>7</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<!--Adults-->
+	
+	
+	
+	<!--Children-->
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarCivilian</defName>
+		<title>kig-yar civilian</title>
+		<titleShort>civilian</titleShort>
+		<baseDescription>As surprising as it might sound, Kig-yar society on Eyan actually has legitimate bussineses and governments. [PAWN_nameDef] is a civilian</baseDescription>
+		<slot>Childhood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>KigYarShipmistressChick</defName>
+		<title>kig-yar Shipmistress Chick</title>
+		<titleShort>shipmistress chick</titleShort>
+		<baseDescription>[PAWN_nameDef]As surprising as it might sound, Kig-yar society on Eyan actually has legitimate bussineses and governments. [PAWN_nameDef] is a civilian</baseDescription>
+		<slot>Childhood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+			<li>SpecialKigYarBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<!--Children-->
+</Defs>
