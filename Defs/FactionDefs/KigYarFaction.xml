@@ -20,13 +20,11 @@
 
 		<factionNameMaker>NamerFactionKigYarVillage</factionNameMaker>
 		<settlementNameMaker>NamerBaseKigYarVillage</settlementNameMaker>
-		<techLevel>Industrial</techLevel>
-		<!--<backstoryCategory>RockmanBackstory</backstoryCategory>		-->
+		<techLevel>Spacer</techLevel>
 
 		<backstoryFilters>
 			<li>
 				<categories>
-					<li>Tribal</li>
 					<li>KigYarBackstory</li>
 				</categories>
 			</li>
@@ -48,15 +46,15 @@
 		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
-			<li>Visitor_Neolithic_Standard</li>
+			<li>Visitor_Outlander_Standard</li>
 		</visitorTraderKinds>
 		<caravanTraderKinds>
-			<li>Caravan_Neolithic_BulkGoods</li>
-			<li>Caravan_Neolithic_WarMerchant</li>
-			<li>Caravan_Neolithic_Slaver</li>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_PirateMerchant</li>
 		</caravanTraderKinds>
 		<baseTraderKinds>
-			<li>Base_Neolithic_Standard</li>
+			<li>Base_Outlander_Standard</li>
 		</baseTraderKinds>
 
 		<colorSpectrum>
@@ -67,6 +65,7 @@
 
 		<mustStartOneEnemy>false</mustStartOneEnemy>
 		<leaderTitle>Matriarch</leaderTitle>
+		<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
 
 		<allowedArrivalTemperatureRange>
 			<min>0</min>
@@ -98,6 +97,7 @@
 					<KigYarSoldier>140</KigYarSoldier>
 					<KigYarMercenary>10</KigYarMercenary>
 					<KigYarPrivateer>5</KigYarPrivateer>
+					<KigYarMatriarch>2</KigYarMatriarch>
 				</options>
 			</li>
 			<li>
@@ -125,6 +125,7 @@
 					<KigYarGuard>40</KigYarGuard>
 					<KigYarMercenary>40</KigYarMercenary>
 					<KigYarPrivateer>10</KigYarPrivateer>
+					<KigYarMatriarch>1</KigYarMatriarch>
 				</options>
 			</li>
 		</pawnGroupMakers>

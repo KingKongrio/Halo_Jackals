@@ -11,7 +11,6 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>Tribal</li>
 					<li>KigYarBackstory</li>
 				</categories>
 			</li>
@@ -322,4 +321,64 @@
 		</inventoryOptions>
 	</PawnKindDef>
 
+	<PawnKindDef ParentName="KigYarMilBase">
+		<defName>KigYarMatriarch</defName>
+		<label>matriarch</label>
+		<labelPlural>matriarchs</labelPlural>
+		<factionLeader>true</factionLeader>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<combatPower>90</combatPower>
+		<minGenerationAge>30</minGenerationAge>
+		<gearHealthRange>
+			<min>0.7</min>
+			<max>2.3</max>
+		</gearHealthRange>
+		<apparelTags>
+			<li>Military</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>1500</min>
+			<max>25000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>1400</min>
+			<max>28000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>EliteGun</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>1000</min>
+			<max>15000</max>
+		</techHediffsMoney>
+		<combatEnhancingDrugsCount>
+			<min>0</min>
+			<max>2</max>
+		</combatEnhancingDrugsCount>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<inventoryOptions>
+			<skipChance>0.8</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>200</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>1</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+	
 </Defs>

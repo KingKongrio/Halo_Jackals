@@ -25,19 +25,13 @@
 
 
 		<settlementNameMaker>NamerBaseKigYarVillage</settlementNameMaker>
-		<!--<settlementNameMakerPlayer>NamerFactionKigYarVillage</settlementNameMakerPlayer>-->
-		<!--<factionNameMakerPlayer>NamerFactionKigYarVillage</factionNameMakerPlayer>-->
-	
-		<!--><settlementNameMaker>NamerBaseKigYarVillage</settlementNameMaker>-->
 		<factionNameMaker>NamerFactionKigYarVillage</factionNameMaker>
 		<playerInitialSettlementNameMaker>NamerFactionKigYarVillage</playerInitialSettlementNameMaker>
-		<!--<backstoryCategory>RockmanBackstory</backstoryCategory> -->
 
 		<backstoryFilters>
 			<li>
 				<categories>
 					<li>KigYarBackstory</li>
-					<li>Tribal</li>
 				</categories>
 			</li>
 		</backstoryFilters>
@@ -47,7 +41,7 @@
 		<!-- StartingResearchTag : TribalStart ClassicStart -->
 		<techLevel>Industrial</techLevel>
 		<startingResearchTags>
-			<li>TribalStart</li>
+			<li>ClassicStart</li>
 		</startingResearchTags>
 
 		<hairTags>

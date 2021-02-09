@@ -13,7 +13,7 @@
 
 	<PawnKindDef ParentName="BaseKigYarPawnKind">
 		<defName>KigYar</defName>
-		<label>colonist</label>
+		<label>kig-yar</label>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 
 		<backstoryFiltersOverride>
