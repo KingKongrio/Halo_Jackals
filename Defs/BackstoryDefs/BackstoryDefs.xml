@@ -631,7 +631,7 @@
 		<defName>KigYarScavengerChild</defName> <!--4-->
 		<title>Kig-Yar Scavenger Chick</title>
 		<titleShort>scavenger</titleShort>
-		<baseDescription>[PAWN_nameDef] was born in a scavenger clan</baseDescription>
+		<baseDescription>[PAWN_nameDef] was born in a clan of scavengers</baseDescription>
 		<slot>Childhood</slot>
 		<maleCommonality>30</maleCommonality>
 		<femaleCommonality>30</femaleCommonality>

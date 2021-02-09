@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<FactionDef ParentName="FactionBase">
+		<defName>KigYarPirate</defName>
+		<label>kig-yar pirate band</label>
+		<description>The Kig Yar have a long tradition of piracy.\n\nBack on the past, when the Kig-Yar were still far from reaching space, pirates salied the seas of the tropical Eayn. This didnt stopped until the clans united together in order to reach space.\n\nTWhile this was a noble cause, once several asteroids of the Y'Deio system were colonized, the Kig-yar returned to their ancient ways now as space pirates.</description>
+		<pawnSingular>kig-yar pirate</pawnSingular>
+		<pawnsPlural>kig-yar pirates</pawnsPlural>
+		<listOrderPriority>10</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>boss</leaderTitle>
+		<factionIconPath>World/KigYarBase</factionIconPath>
+		<colorSpectrum>
+			<li>(0.45, 0.05, 0.05)</li>
+			<li>(0.80, 0.25, 0.05)</li>
+		</colorSpectrum>
+		<permanentEnemy>true</permanentEnemy>
+		<factionNameMaker>NamerPirateFactionKigYarVillage</factionNameMaker>
+		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+		<techLevel>Spacer</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>KigYarBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<geneticVariance>0.8</geneticVariance>
+		<hairTags>
+			<li>Punk</li>
+		</hairTags>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>PirateRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<!--<li>
+				 Normal fights, ranged with melee mix-ins
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Drifter>10</Drifter>
+					<Thrasher>3</Thrasher>
+					<Scavenger>10</Scavenger>
+					<Pirate>10</Pirate>
+					<Grenadier_EMP>0.25</Grenadier_EMP>
+					<Grenadier_Smoke>0.25</Grenadier_Smoke>
+					<Grenadier_Destructive>2</Grenadier_Destructive>
+					<Mercenary_Gunner>10</Mercenary_Gunner>
+					<Mercenary_Heavy>6</Mercenary_Heavy>
+					<Mercenary_Slasher>3</Mercenary_Slasher>
+					<Mercenary_Sniper>7</Mercenary_Sniper>
+					<Mercenary_Elite>10</Mercenary_Elite>
+					<KigYarPirateBoss>5</KigYarPirateBoss>
+				</options>
+			</li>-->
+			<!--<li>
+				Normal fights, melee-only 
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<Thrasher>10</Thrasher>
+					<Mercenary_Slasher>10</Mercenary_Slasher>
+					<KigYarPirateBoss>5</KigYarPirateBoss>
+				</options>
+			</li>-->
+			<li>
+				<!-- Normal fights, ranged only -->
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<options>
+					<KigYarColonist>30</KigYarColonist>
+					<KigYarGuard>40</KigYarGuard>
+					<KigYarSoldier>140</KigYarSoldier>
+					<KigYarMercenary>10</KigYarMercenary>
+					<KigYarPrivateer>5</KigYarPrivateer>
+					<KigYarPirateBoss>5</KigYarPirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, explosives with ranged mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>15</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<KigYarColonist>30</KigYarColonist>
+					<KigYarGuard>40</KigYarGuard>
+					<KigYarSoldier>140</KigYarSoldier>
+					<KigYarMercenary>10</KigYarMercenary>
+					<KigYarPrivateer>5</KigYarPrivateer>
+					<KigYarPirateBoss>1</KigYarPirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, snipers only -->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<KigYarPrivateer>5</KigYarPrivateer>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, drifters only (very rare) -->
+				<kindDef>Combat</kindDef>
+				<commonality>2.5</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<KigYarMercenary>10</KigYarMercenary>
+				</options>
+			</li>
+			<li>
+				<!-- Base defense, mainly ranged with melee mix-ins -->
+				<kindDef>Settlement</kindDef>
+				<options>
+					<KigYarColonist>30</KigYarColonist>
+					<KigYarGuard>40</KigYarGuard>
+					<KigYarSoldier>140</KigYarSoldier>
+					<KigYarMercenary>10</KigYarMercenary>
+					<KigYarPrivateer>5</KigYarPrivateer>
+					<KigYarPirateBoss>10</KigYarPirateBoss>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/KigYarBase</settlementTexturePath>
+	</FactionDef>
+
+	<ThingSetMakerDef>
+		<defName>PirateRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>MedicineIndustrial</li>
+						<li>MealSurvivalPack</li>
+						<li>Flake</li>
+						<li>Yayo</li>
+						<li>GoJuice</li>
+						<li>WakeUp</li>
+						<li>SmokeleafJoint</li>
+						<li>Luciferium</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+	
+</Defs>
