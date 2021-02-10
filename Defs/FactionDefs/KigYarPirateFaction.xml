@@ -2,12 +2,13 @@
 
 <Defs>
 
-	<FactionDef ParentName="FactionBase">
+	<FactionDef>
 		<defName>KigYarPirate</defName>
 		<label>kig-yar pirate band</label>
 		<description>The Kig Yar have a long tradition of piracy.\n\nBack on the past, when the Kig-Yar were still far from reaching space, pirates salied the seas of the tropical Eayn. This didnt stopped until the clans united together in order to reach space.\n\nTWhile this was a noble cause, once several asteroids of the Y'Deio system were colonized, the Kig-yar returned to their ancient ways now as space pirates.</description>
 		<pawnSingular>kig-yar pirate</pawnSingular>
 		<pawnsPlural>kig-yar pirates</pawnsPlural>
+		<basicMemberKind>KigYar</basicMemberKind>
 		<listOrderPriority>10</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -15,13 +16,29 @@
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(40, 3)</li>
+				<li>(500, 1)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<startingGoodwill>
+			<min>-60</min>
+			<max>-25</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>-30</min>
+			<max>-10</max>
+		</naturalColonyGoodwill>
 		<leaderTitle>boss</leaderTitle>
+		<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
 		<factionIconPath>World/KigYarBase</factionIconPath>
 		<colorSpectrum>
 			<li>(0.45, 0.05, 0.05)</li>
 			<li>(0.80, 0.25, 0.05)</li>
 		</colorSpectrum>
-		<permanentEnemy>true</permanentEnemy>
+		<mustStartOneEnemy>true</mustStartOneEnemy>
+		<!--<permanentEnemy>true</permanentEnemy>-->
 		<factionNameMaker>NamerPirateFactionKigYarVillage</factionNameMaker>
 		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
@@ -86,11 +103,9 @@
 				<kindDef>Combat</kindDef>
 				<commonality>20</commonality>
 				<options>
-					<KigYarColonist>30</KigYarColonist>
-					<KigYarGuard>40</KigYarGuard>
-					<KigYarSoldier>140</KigYarSoldier>
-					<KigYarMercenary>10</KigYarMercenary>
-					<KigYarPrivateer>5</KigYarPrivateer>
+					<KigYarPirateSoldier>140</KigYarPirateSoldier>
+					<KigYarPirateMercenary>80</KigYarPirateMercenary>
+					<KigYarPiratePrivateer>5</KigYarPiratePrivateer>
 					<KigYarPirateBoss>5</KigYarPirateBoss>
 				</options>
 			</li>
@@ -102,11 +117,9 @@
 					<li>Siege</li>
 				</disallowedStrategies>
 				<options>
-					<KigYarColonist>30</KigYarColonist>
-					<KigYarGuard>40</KigYarGuard>
-					<KigYarSoldier>140</KigYarSoldier>
-					<KigYarMercenary>10</KigYarMercenary>
-					<KigYarPrivateer>5</KigYarPrivateer>
+					<KigYarPirateSoldier>140</KigYarPirateSoldier>
+					<KigYarPirateMercenary>80</KigYarPirateMercenary>
+					<KigYarPiratePrivateer>5</KigYarPiratePrivateer>
 					<KigYarPirateBoss>1</KigYarPirateBoss>
 				</options>
 			</li>
@@ -131,11 +144,9 @@
 				<!-- Base defense, mainly ranged with melee mix-ins -->
 				<kindDef>Settlement</kindDef>
 				<options>
-					<KigYarColonist>30</KigYarColonist>
-					<KigYarGuard>40</KigYarGuard>
-					<KigYarSoldier>140</KigYarSoldier>
-					<KigYarMercenary>10</KigYarMercenary>
-					<KigYarPrivateer>5</KigYarPrivateer>
+					<KigYarPirateSoldier>140</KigYarPirateSoldier>
+					<KigYarPirateMercenary>80</KigYarPirateMercenary>
+					<KigYarPiratePrivateer>5</KigYarPiratePrivateer>
 					<KigYarPirateBoss>10</KigYarPirateBoss>
 				</options>
 			</li>

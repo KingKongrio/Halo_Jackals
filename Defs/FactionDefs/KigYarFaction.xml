@@ -7,6 +7,7 @@
 		<label>kig yar</label>
 		<description>A Kig Yar settlement.</description>
 		<pawnsPlural>Kig-Yar</pawnsPlural>
+		<basicMemberKind>KigYar</basicMemberKind>
 
 		<settlementGenerationWeight>.3</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>

@@ -1,161 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
+	<!-- ============================ Pirate Kig-Yar Military Base ========================== -->
 
-	<!-- ============================ Kig-Yar Base ========================== -->
-	
-	<PawnKindDef Name="KigYarBase" Abstract="True">
-		<!--Robé el default faction de este lugar-->
-		<race>Alien_KigYar</race>
-
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>KigYarBackstory</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-
-		<baseRecruitDifficulty>.85</baseRecruitDifficulty>
-		<chemicalAddictionChance>0.08</chemicalAddictionChance>
-		<invNutrition>4</invNutrition>
-
-		<apparelTags>
-			<li>Industrial</li>
-		</apparelTags>
-		<weaponTags>
-			<li>NonNeolithicOnlyMelee</li>
-			<li>NeolithicMeleeAdvanced</li>
-			<li>Gun</li>
-			<li>GunHeavy</li>
-			<li>IndustrialGunAdvanced</li>
-			<li>AdvancedGun</li>
-			<li>EliteGun</li>
-		</weaponTags>
-	</PawnKindDef>
-
-	<!-- ============================ Kig-Yar Civilian Base ========================== -->
-
-	<PawnKindDef Name="KigYarCivBase" ParentName="KigYarBase" Abstract="True">
-		<defaultFactionType>KigYarFaction</defaultFactionType>
-		<combatPower>25</combatPower>
-		<race>Alien_KigYar</race>
-		<itemQuality>Normal</itemQuality>
-		<isFighter>false</isFighter>
-		<gearHealthRange>
-			<min>0.2</min>
-			<max>2.0</max>
-		</gearHealthRange>
-		<apparelMoney>
-			<min>300</min>
-			<max>900</max>
-		</apparelMoney>
-
-		<techHediffsMoney>
-			<min>200</min>
-			<max>300</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-		<techHediffsChance>0.01</techHediffsChance>
-		<invNutrition>2.55</invNutrition>
-		<inventoryOptions>
-			<skipChance>0.45</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>Silver</thingDef>
-					<countRange>
-						<min>25</min>
-						<max>70</max>
-					</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-	</PawnKindDef>
-
-	<!-- ============================ Kig-Yar Civilians ========================== -->
-
-	<PawnKindDef ParentName="KigYarCivBase">
-		<defName>KigYarColonist</defName>
-		<label>colonist</label>
-	</PawnKindDef>
-
-	<PawnKindDef ParentName="KigYarCivBase">
-		<defName>KigYarTrader</defName>
-		<label>colony trader</label>
-		<trader>true</trader>
-		<weaponMoney>
-			<min>200</min>
-			<max>400</max>
-		</weaponMoney>
-		<weaponTags>
-			<li>SimpleGun</li>
-		</weaponTags>
-	</PawnKindDef>
-
-	<PawnKindDef ParentName="KigYarCivBase">
-		<defName>KigYarSlave</defName>
-		<label>slave</label>
-	</PawnKindDef>
-
-	<PawnKindDef ParentName="KigYarCivBase">
-		<defName>KigYarRefugee</defName>
-		<label>refugee</label>
-	</PawnKindDef>
-
-	<PawnKindDef ParentName="KigYarCivBase">
-		<defName>KigYarWanderer</defName>
-		<label>wanderer</label>
-	</PawnKindDef>
-
-	<!-- ============================ Kig-Yar Security ========================== -->
-
-	<PawnKindDef ParentName="KigYarCivBase">
-		<defName>KigYarGuard</defName>
-		<label>guard</label>
-		<combatPower>50</combatPower>
-		<maxGenerationAge>80</maxGenerationAge>
-		<gearHealthRange>
-			<min>0.5</min>
-			<max>1.8</max>
-		</gearHealthRange>
-		<apparelMoney>
-			<min>700</min>
-			<max>4000</max>
-		</apparelMoney>
-		<weaponMoney>
-			<min>1400</min>
-			<max>3000</max>
-		</weaponMoney>
-		<weaponTags>
-			<li>SimpleGun</li>
-			<li>IndustrialRanged</li>
-		</weaponTags>
-		<techHediffsMoney>
-			<min>200</min>
-			<max>5000</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<invNutrition>2.55</invNutrition>
-		<inventoryOptions>
-			<skipChance>0.95</skipChance>
-			<thingDef>Silver</thingDef>
-			<countRange>
-				<min>30</min>
-				<max>100</max>
-			</countRange>
-		</inventoryOptions>
-	</PawnKindDef>
-
-
-	<!-- ============================ Default Kig-Yar Military Base ========================== -->
-
-	<PawnKindDef Name="KigYarMilBase" ParentName="KigYarBase" Abstract="True">
-		<defaultFactionType>KigYarFaction</defaultFactionType>
+	<PawnKindDef Name="KigYarPirateBase" ParentName="KigYarBase" Abstract="True">
+		<defaultFactionType>KigYarPirate</defaultFactionType>
 		<chemicalAddictionChance>0</chemicalAddictionChance>
 		<isFighter>true</isFighter>
 		<race>Alien_KigYar</race>
@@ -206,11 +55,10 @@
 			</subOptionsChooseOne>
 		</inventoryOptions>
 	</PawnKindDef>
+	
 
-	<!-- ============================ KigYar Military ========================== -->
-
-	<PawnKindDef ParentName="KigYarMilBase">
-		<defName>KigYarMercenary</defName>
+	<PawnKindDef ParentName="KigYarPirateBase">
+		<defName>KigYarPirateMercenary</defName>
 		<label>Mercenary</label>
 
 		<apparelTags>
@@ -240,7 +88,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="KigYarBase">
-		<defName>KigYarSoldier</defName>
+		<defName>KigYarPirateSoldier</defName>
 		<combatPower>70</combatPower>
 		<label>soldier</label>
 
@@ -268,8 +116,8 @@
 		</weaponTags>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="KigYarMilBase">
-		<defName>KigYarPrivateer</defName>
+	<PawnKindDef ParentName="KigYarPirateBase">
+		<defName>KigYarPiratePrivateer</defName>
 		<label>privateer</label>
 		<combatPower>90</combatPower>
 		<minGenerationAge>30</minGenerationAge>
@@ -325,12 +173,13 @@
 		</inventoryOptions>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="KigYarMilBase">
-		<defName>KigYarMatriarch</defName>
-		<label>matriarch</label>
-		<labelPlural>matriarchs</labelPlural>
+	<PawnKindDef ParentName="KigYarPirateBase">
+		<defName>KigYarPirateBoss</defName>
+		<label>boss</label>
+		<labelPlural>bosses</labelPlural>
 		<factionLeader>true</factionLeader>
 		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<canBeSapper>true</canBeSapper>
 		<combatPower>90</combatPower>
 		<minGenerationAge>30</minGenerationAge>
 		<gearHealthRange>
