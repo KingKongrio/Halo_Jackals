@@ -1,13 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
+	
+	  <HairDef>
+    <defName>Quills</defName>
+    <label>quills</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Quills</texPath>
+    <hairTags>
+      <li>KigYar</li>
+    </hairTags>
+  </HairDef>
+	
+	  <HairDef>
+    <defName>Scales</defName>
+    <label>scales</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Scales</texPath>
+    <hairTags>
+      <li>KigYar</li>
+    </hairTags>
+  </HairDef>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
 		<defName>Alien_KigYar</defName>
 		<label>Kig-Yar</label>
 
-		<description>The Kig-yar are a dinosaur-like saurian species. Following their assimilation in 1342 CE, the Kig-Yar served the Covenant until its dissolution in 2552. 
-			Many went on to aid its remnants as mercenaries, privateers, and pirates, though the majority stayed independent of any such factions.</description>
+		<description>The Kig-yar are a dinosaur-like saurian species. Following their assimilation in 1342 CE, the Kig-Yar served the Covenant until its dissolution in 2552. n/nMany went on to aid its remnants as mercenaries, privateers, and pirates, though the majority stayed independent of any such factions.</description>
 
 		<statBases>
 			<ComfyTemperatureMin>16</ComfyTemperatureMin>
@@ -101,7 +120,8 @@
 					</alienbodytypes>
 
 					<aliencrowntypes>
-						<li>PlaceHolderHead</li>
+						<li>Ruuthian</li>
+						<li>Ibieshan</li>
 					</aliencrowntypes>
 
 					<colorChannels>
@@ -140,7 +160,7 @@
 
 			<graphicPaths>
 				<li>
-					<!--<headOffset>(0,	-0.025)</headOffset>-->
+					<headOffset>(0.1,	0.02)</headOffset>
 					<body>Things/Pawn/Humanlike/KigYar/Bodies/</body>
 					<head>Things/Pawn/Humanlike/KigYar/Heads/</head>
 					<!--<skeleton>Humanoid/RotenBody/Rock/RockRoten</skeleton>
@@ -149,7 +169,10 @@
 			</graphicPaths>
 
 			<hairSettings>
-				<hasHair>false</hasHair>
+				<hasHair>true</hasHair>
+			    <hairTags>
+                 <li>KigYar</li>
+				</hairTags>
 			</hairSettings>
 
 		</alienRace>
