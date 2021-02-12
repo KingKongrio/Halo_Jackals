@@ -118,7 +118,7 @@
       </li>
     </tools>
     <weaponTags Inherit="False">
-      <li>SniperRifle</li>
+      <li>CovieWeapon</li>
     </weaponTags>
   </ThingDef>
   

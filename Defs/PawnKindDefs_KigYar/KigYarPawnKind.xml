@@ -22,6 +22,7 @@
 
 		<apparelTags>
 			<li>Industrial</li>
+			<li>CovenantMilitary</li>
 		</apparelTags>
 		<weaponTags>
 			<li>NonNeolithicOnlyMelee</li>
@@ -31,6 +32,7 @@
 			<li>IndustrialGunAdvanced</li>
 			<li>AdvancedGun</li>
 			<li>EliteGun</li>
+			<li>CovieWeapon</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -91,6 +93,7 @@
 		</weaponMoney>
 		<weaponTags>
 			<li>SimpleGun</li>
+			<li>CovieWeapon</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -131,6 +134,7 @@
 		<weaponTags>
 			<li>SimpleGun</li>
 			<li>IndustrialRanged</li>
+			<li>CovieWeapon</li>
 		</weaponTags>
 		<techHediffsMoney>
 			<min>200</min>
@@ -169,6 +173,7 @@
 		</gearHealthRange>
 		<apparelTags>
 			<li>IndustrialMilitaryBasic</li>
+			<li>CovenantMilitary</li>
 		</apparelTags>
 		<apparelMoney>
 			<min>1500</min>
@@ -181,6 +186,7 @@
 		<weaponTags>
 			<li>Gun</li>
 			<li>IndustrialRanged</li>
+			<li>CovieWeapon</li>
 		</weaponTags>
 		<techHediffsMoney>
 			<min>1000</min>
@@ -216,6 +222,7 @@
 		<apparelTags>
 			<li>Apparel_ShieldBelt</li>
 			<li>BeltDefensePop</li>
+			<li>CovenantMilitary</li>
 		</apparelTags>
 		<apparelMoney>
 			<min>1500</min>
@@ -225,6 +232,7 @@
 		<!-- <apparelAllowHeadwearChance>0.5</apparelAllowHeadwearChance> -->
 		<weaponTags>
 			<li>IndustrialRanged</li>
+			<li>CovieWeapon</li>
 		</weaponTags>
 
 		<weaponMoney>
@@ -252,6 +260,7 @@
 			<li>Outlander</li>
 			<li>Military</li>
 			<li>BeltDefensePop</li>
+			<li>CovenantMilitary</li>
 		</apparelTags>
 		<apparelMoney>
 			<min>800</min>
@@ -291,6 +300,7 @@
 		<weaponTags>
 			<li>AdvancedGun</li>
 			<li>EliteGun</li>
+			<li>CovieWeapon</li>
 		</weaponTags>
 		<techHediffsMoney>
 			<min>1000</min>
@@ -339,6 +349,7 @@
 		</gearHealthRange>
 		<apparelTags>
 			<li>Military</li>
+			<li>CovenantMilitary</li>
 		</apparelTags>
 		<apparelMoney>
 			<min>1500</min>
@@ -351,6 +362,7 @@
 		<weaponTags>
 			<li>AdvancedGun</li>
 			<li>EliteGun</li>
+			<li>CovieWeapon</li>
 		</weaponTags>
 		<techHediffsMoney>
 			<min>1000</min>
