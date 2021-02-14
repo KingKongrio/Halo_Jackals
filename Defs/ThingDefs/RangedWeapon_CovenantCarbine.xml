@@ -63,7 +63,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+			<researchPrerequisite>CovenantWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
@@ -85,14 +85,14 @@
 		
 		<costList>
 			<Steel>60</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentCovenant>4</ComponentCovenant>
 		</costList>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_CovenantCarbine</defaultProjectile>
-				<warmupTime>3.5</warmupTime>
+				<warmupTime>1.5</warmupTime>
 				<range>44.9</range>
 				<burstShotCount>3</burstShotCount>
 				<soundCast>Shot_CovenantCarbine</soundCast>

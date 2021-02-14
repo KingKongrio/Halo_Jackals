@@ -6,7 +6,10 @@
 		<techLevel>Industrial</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>ReconArmor</researchPrerequisite>
+			<researchPrerequisites>
+				<li>ReconArmor</li>
+				<li>CovenantEngineering</li>
+			</researchPrerequisites>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -38,7 +41,7 @@
 			<li>ApparelArmor</li>
 		</thingCategories>
 		<costList>
-			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentCovenant>3</ComponentCovenant>
 			<Plasteel>80</Plasteel>
 			<Uranium>10</Uranium>
 		</costList>

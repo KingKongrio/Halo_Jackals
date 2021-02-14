@@ -64,7 +64,11 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisites>
+		  <li>SubaneseCrystalProccesing</li>
+		  <li>CovenantWeaponry</li>
+		  <li>ChargedShot</li>
+	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -73,26 +77,29 @@
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4</Mass>
-      <AccuracyTouch>0.50</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.86</AccuracyMedium>
-      <AccuracyLong>0.88</AccuracyLong>
-      <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+		<AccuracyTouch>0.65</AccuracyTouch>
+		<AccuracyShort>0.85</AccuracyShort>
+		<AccuracyMedium>0.85</AccuracyMedium>
+	    <AccuracyLong>0.75</AccuracyLong>
+        <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
     </statBases>
 		  
     <equippedAngleOffset>45</equippedAngleOffset>
 			  
     <costList>
       <Steel>60</Steel>
-      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentCovenant>8</ComponentCovenant>
+		<Plasteel>10</Plasteel>
+		<SubaneseCrystal>10</SubaneseCrystal>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BeamRifle</defaultProjectile>
-        <warmupTime>3.5</warmupTime>
+        <warmupTime>1.5</warmupTime>
         <range>44.9</range>
+		<burstShotCount>2</burstShotCount>
         <soundCast>Shot_BeamRifle</soundCast>
         <soundCastTail>GunTail_BeamRifle</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
