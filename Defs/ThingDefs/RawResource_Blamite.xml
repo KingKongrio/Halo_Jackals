@@ -2,6 +2,14 @@
 
 <Defs>
 
+	<StuffCategoryDef>
+		<defName>Blamite</defName>
+		<label>subanese Crystal</label>
+		<destroySoundSmall>BuildingDestroyed_Metal_Small</destroySoundSmall>
+		<destroySoundMedium>BuildingDestroyed_Metal_Medium</destroySoundMedium>
+		<destroySoundLarge>BuildingDestroyed_Metal_Big</destroySoundLarge>
+	</StuffCategoryDef>
+
 	<ThingDef ParentName="ResourceBase">
 		<defName>SubaneseCrystal</defName>
 		<label>subanese crystal</label>
@@ -28,10 +36,9 @@
 		<smeltable>false</smeltable>
 		<stuffProps>
 			<categories>
-				<li>Metallic</li>
+				<li>Blamite</li>
 			</categories>
 			<commonality>1.00</commonality>
-			<!--<color>(251,108,255)</color>-->
 			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>

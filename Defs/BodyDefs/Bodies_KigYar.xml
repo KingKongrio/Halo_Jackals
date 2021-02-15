@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<BodyPartGroupDef>
+		<defName>UpperHeadKigYar</defName>
+		<label>upper head</label>
+		<listOrder>200</listOrder>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>FullHeadKigYar</defName>
+		<label>full head</label>
+		<listOrder>199</listOrder>
+	</BodyPartGroupDef>
+
 
   <BodyDef>
     <defName>KigYarBody</defName>
@@ -118,8 +130,8 @@
               <def>Head</def>
               <coverage>0.80</coverage>
               <groups>
-                <li>UpperHead</li>
-                <li>FullHead</li>
+                <li>UpperHeadKigYar</li>
+                <li>FullHeadKigYar</li>
                 <li>HeadAttackTool</li>
               </groups>
               <parts>
@@ -128,16 +140,16 @@
                   <coverage>0.18</coverage>
                   <depth>Inside</depth>
                   <groups>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
+                    <li>UpperHeadKigYar</li>
+                    <li>FullHeadKigYar</li>
                   </groups>
                   <parts>
                     <li>
                       <def>Brain</def>
                       <coverage>0.8</coverage>
                       <groups>
-                        <li>UpperHead</li>
-                        <li>FullHead</li>
+                        <li>UpperHeadKigYar</li>
+                        <li>FullHeadKigYar</li>
                       </groups>
                     </li>
                   </parts>
@@ -147,7 +159,7 @@
                   <customLabel>left eye</customLabel>
                   <coverage>0.07</coverage>
                   <groups>
-                    <li>FullHead</li>
+                    <li>FullHeadKigYar</li>
                     <li>Eyes</li>
                   </groups>
                 </li>
@@ -156,7 +168,7 @@
                   <customLabel>right eye</customLabel>
                   <coverage>0.07</coverage>
                   <groups>
-                    <li>FullHead</li>
+                    <li>FullHeadKigYar</li>
                     <li>Eyes</li>
                   </groups>
                 </li>
@@ -165,8 +177,8 @@
                   <customLabel>left ear</customLabel>
                   <coverage>0.07</coverage>
                   <groups>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
+                    <li>UpperHeadKigYar</li>
+                    <li>FullHeadKigYar</li>
                   </groups>
                 </li>
                 <li>
@@ -174,8 +186,8 @@
                   <customLabel>right ear</customLabel>
                   <coverage>0.07</coverage>
                   <groups>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
+                    <li>UpperHeadKigYar</li>
+                    <li>FullHeadKigYar</li>
                   </groups>
                 </li>
                 <li>
@@ -183,7 +195,7 @@
                   <coverage>0.15</coverage>
                   <groups>
                     <li>Teeth</li>
-                    <li>FullHead</li>
+                    <li>FullHeadKigYar</li>
                   </groups>
                 </li>
               </parts>
