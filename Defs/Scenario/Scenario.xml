@@ -2,9 +2,9 @@
 
 <Defs>
 	<ScenarioDef>
-		<defName>KigYarRaiders</defName>
-		<label>Kig-Yar Crashlanded</label>
-		<description>Your ship got attacked, probably under the assumption that all of you were pirates...wich isnt that far off from the trhuth. now its time to rebuild your band</description>
+		<defName>KigYarCrashland</defName>
+		<label>Kig-Yar Crashland</label>
+		<description>Your ship got attacked, probably under the assumption that all of you were pirates...wich isnt that far off from the truth. now its time to rebuild your band</description>
 		<scenario>
 			<summary>Establish a colony</summary>
 			<playerFaction>

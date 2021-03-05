@@ -12,12 +12,17 @@
 		<itemQuality>Normal</itemQuality>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>80</maxGenerationAge>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<gearHealthRange>
 			<min>0.7</min>
 			<max>2.3</max>
 		</gearHealthRange>
 		<apparelTags>
 			<li>IndustrialMilitaryBasic</li>
+			<li>Industrial</li>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>CovenantMilitary</li>
 			<li>CovenantMilitary</li>
 		</apparelTags>
 		<apparelMoney>
@@ -31,6 +36,7 @@
 		<weaponTags>
 			<li>Gun</li>
 			<li>IndustrialRanged</li>
+			<li>GunHeavy</li>
 			<li>CovieWeapon</li>
 		</weaponTags>
 		<techHediffsMoney>
@@ -66,6 +72,12 @@
 		<apparelTags>
 			<li>Apparel_ShieldBelt</li>
 			<li>BeltDefensePop</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>Industrial</li>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>CovenantMilitary</li>
+			<li>CovenantMilitary</li>
 			<li>CovenantMilitary</li>
 		</apparelTags>
 		<apparelMoney>
@@ -77,6 +89,7 @@
 		<weaponTags>
 			<li>IndustrialRanged</li>
 			<li>CovieWeapon</li>
+			<li>GunHeavy</li>
 		</weaponTags>
 
 		<weaponMoney>
@@ -104,6 +117,12 @@
 			<li>Outlander</li>
 			<li>Military</li>
 			<li>BeltDefensePop</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>Industrial</li>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>CovenantMilitary</li>
+			<li>CovenantMilitary</li>
 			<li>CovenantMilitary</li>
 		</apparelTags>
 		<apparelMoney>
@@ -118,6 +137,7 @@
 
 		<weaponTags>
 			<li>IndustrialRanged</li>
+			<li>GunHeavy</li>
 			<li>CovieWeapon</li>
 		</weaponTags>
 	</PawnKindDef>
@@ -133,6 +153,12 @@
 		</gearHealthRange>
 		<apparelTags>
 			<li>Military</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>Industrial</li>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>CovenantMilitary</li>
+			<li>CovenantMilitary</li>
 			<li>CovenantMilitary</li>
 		</apparelTags>
 		<apparelMoney>
@@ -196,6 +222,12 @@
 		</gearHealthRange>
 		<apparelTags>
 			<li>Military</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>Industrial</li>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>CovenantMilitary</li>
+			<li>CovenantMilitary</li>
 			<li>CovenantMilitary</li>
 		</apparelTags>
 		<apparelMoney>

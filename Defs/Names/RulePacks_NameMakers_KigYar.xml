@@ -16,8 +16,6 @@
 			</rulesStrings>
 
 			<rulesRaw>
-				<!-- mod -->
-				<!-- noun -->
 				<li Class="Rule_File">
 					<keyword>Names</keyword>
 					<path>KigYarNames/Names</path>

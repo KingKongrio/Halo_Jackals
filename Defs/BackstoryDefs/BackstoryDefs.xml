@@ -130,7 +130,7 @@
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
-				<amount>12</amount>
+				<amount>7</amount>
 			</li>
 		</skillGains>
 	</AlienRace.BackstoryDef>
@@ -151,11 +151,11 @@
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
-				<amount>12</amount>
+				<amount>6</amount>
 			</li>
 			<li>
 				<defName>Melee</defName>
-				<amount>10</amount>
+				<amount>6</amount>
 			</li>
 			<li>
 				<defName>Social</defName>
@@ -549,6 +549,64 @@
 			</li>
 		</skillGains>
 	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+
+		<defName>EaynMilitia</defName> <!--21-->
+		<title>eayn militia soldier</title>
+		<titleShort>militia soldier</titleShort>
+		<baseDescription>[PAWN_nameDef] was a soldier in the militia of Eayn</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+
+		<defName>VeneziaPolice</defName> <!--22-->
+		<title>venezia police</title>
+		<titleShort>police</titleShort>
+		<baseDescription>[PAWN_nameDef] worked on the police force on the rebel colony of venezia</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+
+	</AlienRace.BackstoryDef>
 	
 	<!--Adults-->
 	
@@ -772,7 +830,7 @@
 		<defName>KigYarPirateChild</defName> <!--9-->
 		<title>Kig-Yar pirate chick</title>
 		<titleShort>pirate</titleShort>
-		<baseDescription>[PAWN_nameDef] Was born in clan of pirates, [PAWN_pronoun]Lived the dream of many chicks of [PAWN_possesive] kind.</baseDescription>
+		<baseDescription>[PAWN_nameDef] Was born in clan of pirates, [PAWN_pronoun] Lived the dream of many chicks of [PAWN_possesive] kind.</baseDescription>
 		<slot>Childhood</slot>
 		<maleCommonality>30</maleCommonality>
 		<femaleCommonality>30</femaleCommonality>
@@ -874,10 +932,58 @@
 			</li>
 			<li>
 				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+
+		<defName>KigYarVatChild</defName> <!--13-->
+		<title>Kig-Yar vat chick</title>
+		<titleShort>hunter</titleShort>
+		<baseDescription>Through some unknown technology that fell on hands of someone, [PAWN_nameDef] was born and spent his childhood inside an industrial vat.</baseDescription>
+		<slot>Childhood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+
+		<defName>KigYarVeneziaChild</defName> <!--14-->
+		<title>Kig-Yar venezia chick</title>
+		<titleShort>venezia resident</titleShort>
+		<baseDescription>[PAWN_nameDef] was born and raised in the rebel colony of Venezia, where a great number of different species live in relative harmony.</baseDescription>
+		<slot>Childhood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>KigYarBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
 				<amount>4</amount>
 			</li>
 		</skillGains>
-	</AlienRace.BackstoryDef>	
+	</AlienRace.BackstoryDef>
 
 	<!--Children-->
 </Defs>

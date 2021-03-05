@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-	
-	  <HairDef>
+
+	<!--<HairDef>
     <defName>Quills</defName>
     <label>quills</label>
     <hairGender>Male</hairGender>
@@ -20,11 +20,11 @@
     <hairTags>
       <li>KigYar</li>
     </hairTags>
-  </HairDef>
+  </HairDef>-->
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-		<defName>Alien_KigYar</defName>
-		<label>Kig-Yar</label>
+		<defName>Alien_Tvaoan</defName>
+		<label>T'vaoan</label>
 
 		<description>The Kig-yar are a dinosaur-like saurian species. Following their assimilation in 1342 CE, the Kig-Yar served the Covenant until its dissolution in 2552. Many went on to aid its remnants as mercenaries, privateers, and pirates, though the majority stayed independent of any such factions.</description>
 
@@ -33,7 +33,7 @@
 			<ComfyTemperatureMax>26</ComfyTemperatureMax>
 
 			<MarketValue>1750</MarketValue>
-			<MoveSpeed>5.6</MoveSpeed>
+			<MoveSpeed>6.6</MoveSpeed>
 		</statBases>
 		<tools>
 			<li>
@@ -116,8 +116,9 @@
 					</alienbodytypes>
 
 					<aliencrowntypes>
-						<li>Ruuthian</li>
-						<li>Ibieshan</li>
+						<!--<li>Ruuthian</li>
+						<li>Ibieshan</li>-->
+						<li>Tvaoan</li>
 					</aliencrowntypes>
 
 					<colorChannels>
@@ -125,47 +126,29 @@
 							<name>skin</name>
 							<first Class="ColorGenerator_Options">
 								<options>
-
-									<!--Tan-->
 									<li>
 										<weight>1</weight>
-										<only>(132,103,85)</only>
-									</li>
-									<!--Darker Tan-->
-									<li>
-										<weight>1</weight>
-										<only>(110,86,72)</only>
-									</li>
-									<!--Lighter Tan-->
-									<li>
-										<weight>1</weight>
-										<only>(153,119,98)</only>
-									</li>
-									<!--Ibieshan-->
-									<li>
-										<weight>1</weight>
-										<only>(172,102,85)</only>
-							
+										<only>(137,145,144)</only>
 									</li>
 								</options>
 							</first>
 							</li>
-							<li>
+							<!--<li>
 								<name>hair</name>
 								<second Class="ColorGenerator_Options">
 								<options>
 								
-									<!--red-->
+									
 									<li>
 										<weight>30</weight>
 										<only>(83,25,10)</only>
 									</li>
-									<!--Gray-->
+									
 									<li>
 										<weight>20</weight>
 										<only>(117,125,128)</only>
 									</li>
-									<!--Blueish Gray-->
+									
 									<li>
 										<weight>20</weight>
 										<only>(127,172,187)</only>
@@ -173,7 +156,7 @@
 							</options>
 						</second>
 						
-						</li>
+						</li>-->
 					</colorChannels>
 						
 
@@ -218,8 +201,8 @@
 
 			<raceRestriction>
 				<apparelList>
-					<li>Apparel_IbieshanCrown</li>
-					<li>Apparel_RuuthianCrown</li>
+					<!--<li>Apparel_IbieshanCrown</li>
+					<li>Apparel_RuuthianCrown</li>-->
 					<li>Apparel_KigYarCHarness</li>
 				</apparelList>
 			</raceRestriction>
@@ -239,7 +222,7 @@
 			<nameCategory>HumanStandard</nameCategory>
 
 			<body>KigYarBody</body>
-			<baseBodySize>1.5</baseBodySize>
+			<baseBodySize>1.7</baseBodySize>
 			<baseHungerRate>1.5</baseHungerRate>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>100</gestationPeriodDays>

@@ -86,7 +86,7 @@
 			<speed>100</speed>
 		</projectile>
 
-		<thingClass>Classlibrary1.Projectile_BlamiteNeedleRifle</thingClass>
+		<thingClass>SkirmisherJump.Projectile_BlamiteNeedleRifle</thingClass>
 		
 		<modExtensions>
 			<li Class="CovenantWeapons.ModExtension_BlamiteNeedleRifle">
