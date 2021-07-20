@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<PawnKindDef Abstract="True" Name="BaseKigYarPawnKind">
+		<race>Alien_KigYar</race>
+		<combatPower>40</combatPower>
+		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseKigYarPawnKind">
+		<defName>KigYar</defName>
+		<label>colonist</label>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>KigYarBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+
+		<apparelTags>
+			<li>Neolithic</li>
+		</apparelTags>
+
+		<apparelMoney>
+			<min>100</min>
+			<max>400</max>
+		</apparelMoney>
+
+		<backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>
