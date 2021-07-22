@@ -124,7 +124,7 @@
 	<PawnKindDef Name="TvaoanCivBase" ParentName="TvaoanBase" Abstract="True">
 		<defaultFactionType>KigYarFaction</defaultFactionType>
 		<combatPower>25</combatPower>
-		<race>Alien_KigYar</race>
+		<race>Alien_Tvaoan</race>
 		<itemQuality>Normal</itemQuality>
 		<isFighter>false</isFighter>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>

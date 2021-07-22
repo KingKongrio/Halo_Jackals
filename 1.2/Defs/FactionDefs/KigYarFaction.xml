@@ -85,8 +85,10 @@
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<KigYarColonist>20</KigYarColonist>
+					<TvaoanColonist>3</TvaoanColonist>
 					<KigYarGuard>10</KigYarGuard>
 					<KigYarMercenary>5</KigYarMercenary>
+					<TvaoanSoldier>1</TvaoanSoldier>
 				</options>
 			</li>
 			<li>
@@ -98,6 +100,8 @@
 					<KigYarMercenary>10</KigYarMercenary>
 					<KigYarPrivateer>5</KigYarPrivateer>
 					<KigYarMatriarch>2</KigYarMatriarch>
+					<TvaoanSoldier>3</TvaoanSoldier>
+					<TvaoanCommando>1</TvaoanCommando>
 				</options>
 			</li>
 			<li>
@@ -115,6 +119,8 @@
 					<KigYarSoldier>120</KigYarSoldier>
 					<KigYarGuard>40</KigYarGuard>
 					<KigYarPrivateer>5</KigYarPrivateer>
+					<TvaoanTrader>1</TvaoanTrader>
+					<TvaoanSoldier>2</TvaoanSoldier>
 				</guards>
 			</li>
 			<li>
@@ -122,10 +128,13 @@
 				<options>
 					<KigYarSoldier>100</KigYarSoldier>
 					<KigYarColonist>50</KigYarColonist>
+					<TvaoanColonist>5</TvaoanColonist>
 					<KigYarGuard>40</KigYarGuard>
 					<KigYarMercenary>40</KigYarMercenary>
 					<KigYarPrivateer>10</KigYarPrivateer>
 					<KigYarMatriarch>1</KigYarMatriarch>
+					<TvaoanSoldier>5</TvaoanSoldier>
+					<TvaoanCommando>3</TvaoanCommando>
 				</options>
 			</li>
 		</pawnGroupMakers>
