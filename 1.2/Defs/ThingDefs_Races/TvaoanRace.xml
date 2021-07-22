@@ -10,17 +10,17 @@
     <hairTags>
       <li>KigYar</li>
     </hairTags>
-  </HairDef>
+  </HairDef>-->
 	
 	  <HairDef>
-    <defName>Scales</defName>
-    <label>scales</label>
-    <hairGender>Female</hairGender>
-    <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Scales</texPath>
+    <defName>Feathers</defName>
+    <label>feathers</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Feathers</texPath>
     <hairTags>
-      <li>KigYar</li>
+      <li>Tvaoan</li>
     </hairTags>
-  </HairDef>-->
+  </HairDef>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
 		<defName>Alien_Tvaoan</defName>
@@ -131,30 +131,30 @@
 								</options>
 							</first>
 							</li>
-							<!--<li>
+							<li>
 								<name>hair</name>
 								<second Class="ColorGenerator_Options">
 								<options>
 								
-									
+									<!--Gray-->
 									<li>
 										<weight>30</weight>
-										<only>(83,25,10)</only>
+										<only>(96,96,96)</only>
 									</li>
-									
+									<!--Red-->
 									<li>
 										<weight>20</weight>
-										<only>(117,125,128)</only>
+										<only>(153,0,0)</only>
 									</li>
-									
+									<!--Green-->
 									<li>
 										<weight>20</weight>
-										<only>(127,172,187)</only>
+										<only>(0,153,0)</only>
 									</li>
 							</options>
 						</second>
 						
-						</li>-->
+						</li>
 					</colorChannels>
 						
 
@@ -193,7 +193,7 @@
 			<hairSettings>
 				<hasHair>true</hasHair>
 			    <hairTags>
-                 <li>KigYar</li>
+                 <li>Tvaoan</li>
 				</hairTags>
 			</hairSettings>
 

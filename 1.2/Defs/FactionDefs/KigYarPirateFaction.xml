@@ -72,6 +72,7 @@
 					<KigYarPirateMercenary>80</KigYarPirateMercenary>
 					<KigYarPiratePrivateer>5</KigYarPiratePrivateer>
 					<KigYarPirateBoss>5</KigYarPirateBoss>
+					<TvaoanSoldier>10</TvaoanSoldier>
 				</options>
 			</li>
 			<li>
@@ -84,6 +85,7 @@
 					<KigYarPirateSoldier>140</KigYarPirateSoldier>
 					<KigYarPirateMercenary>80</KigYarPirateMercenary>
 					<KigYarPiratePrivateer>5</KigYarPiratePrivateer>
+					<TvaoanSoldier>5</TvaoanSoldier>
 					<KigYarPirateBoss>1</KigYarPirateBoss>
 				</options>
 			</li>
@@ -109,6 +111,7 @@
 					<KigYarPirateMercenary>80</KigYarPirateMercenary>
 					<KigYarPiratePrivateer>5</KigYarPiratePrivateer>
 					<KigYarPirateBoss>10</KigYarPirateBoss>
+					<TvaoanSoldier>10</TvaoanSoldier>
 				</options>
 			</li>
 		</pawnGroupMakers>
