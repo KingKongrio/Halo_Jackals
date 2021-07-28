@@ -3,8 +3,8 @@
 <Defs>
 
 	<!--Adults-->
+	
 	<AlienRace.BackstoryDef>
-
 		<defName>CovenantRemnantSoldier</defName> <!--1-->             
 		<title>Covenant Remnant Soldier</title>
 		<titleShort>soldier</titleShort>
@@ -28,7 +28,6 @@
 			<li>KigYarBackstory</li>
 			<!--<li>SpecialKigYarBackstory</li>-->
 		</spawnCategories>
-
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef>
@@ -986,4 +985,89 @@
 	</AlienRace.BackstoryDef>
 
 	<!--Children-->
+	
+	
+	<!--Tvaoan-->
+
+	<AlienRace.BackstoryDef>
+		<defName>TvaoanCommando</defName>
+		<!--1-->
+		<title>T'vaoan Commando</title>
+		<titleShort>commando</titleShort>
+		<baseDescription>[PAWN_nameDef] was T'vaoan Commando. Commandos were a thing long before the covenant, but got integrated into their ranks once it became clear that the Kig-Yar could profit more of working with the invaders.</baseDescription>
+		<slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>TvaoanBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>TvaoanMurmillo</defName>
+		<!--2-->
+		<title>T'vaoan Murmillo</title>
+		<titleShort>murmillo</titleShort>
+		<baseDescription>[PAWN_nameDef] Was a Murmillo in the covenant.</baseDescription>
+		<slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>TvaoanBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>TvaoanChampion</defName>
+		<!--3-->
+		<title>T'vaoan Champion</title>
+		<titleShort>champion</titleShort>
+		<baseDescription>[PAWN_nameDef] was a Skirmisher Champion in the covenant.</baseDescription>
+		<slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>TvaoanBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
 </Defs>

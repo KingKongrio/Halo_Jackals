@@ -2,16 +2,6 @@
 
 <Defs>
 
-	<!--<HairDef>
-    <defName>Quills</defName>
-    <label>quills</label>
-    <hairGender>Male</hairGender>
-    <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Quills</texPath>
-    <hairTags>
-      <li>KigYar</li>
-    </hairTags>
-  </HairDef>-->
-	
 	  <HairDef>
     <defName>Feathers</defName>
     <label>feathers</label>
@@ -26,7 +16,7 @@
 		<defName>Alien_Tvaoan</defName>
 		<label>T'vaoan</label>
 
-		<description>The Kig-yar are a dinosaur-like saurian species. Following their assimilation in 1342 CE, the Kig-Yar served the Covenant until its dissolution in 2552. Many went on to aid its remnants as mercenaries, privateers, and pirates, though the majority stayed independent of any such factions.</description>
+		<description>The T'vaoans, referred to by humans as Skirmishers, are a subspecies of the Kig-Yar hailing from asteroid colony of T'vao. They served the Covenant as a specialized group in the military.</description>
 
 		<statBases>
 			<ComfyTemperatureMin>16</ComfyTemperatureMin>
@@ -133,7 +123,7 @@
 							</li>
 							<li>
 								<name>hair</name>
-								<second Class="ColorGenerator_Options">
+								<first Class="ColorGenerator_Options">
 								<options>
 								
 									<!--Gray-->
@@ -143,7 +133,7 @@
 									</li>
 									<!--Red-->
 									<li>
-										<weight>20</weight>
+										<weight>30</weight>
 										<only>(153,0,0)</only>
 									</li>
 									<!--Green-->
@@ -151,8 +141,13 @@
 										<weight>20</weight>
 										<only>(0,153,0)</only>
 									</li>
+									<!--Orange-->
+									<li>
+										<weight>10</weight>
+										<only>(204,102,0)</only>
+									</li>
 							</options>
-						</second>
+						</first>
 						
 						</li>
 					</colorChannels>

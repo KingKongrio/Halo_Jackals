@@ -152,7 +152,7 @@
 							</li>
 							<li>
 								<name>hair</name>
-								<second Class="ColorGenerator_Options">
+								<first Class="ColorGenerator_Options">
 								<options>
 								
 									<!--red-->
@@ -171,7 +171,7 @@
 										<only>(127,172,187)</only>
 									</li>
 							</options>
-						</second>
+						</first>
 						
 						</li>
 					</colorChannels>
