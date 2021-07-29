@@ -19,10 +19,10 @@
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Quills</texPath>
     <hairTags>
-      <li>KigYar</li>
+      <li>KigYarHair</li>
     </hairTags>
 		  <styleTags>
-			<li>KigYar</li>
+			<li>KigYarHair</li>
 		  </styleTags>
   </HairDef>
 	
@@ -32,10 +32,10 @@
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Scales</texPath>
     <hairTags>
-      <li>KigYar</li>
+      <li>KigYarHair</li>
     </hairTags>
 		<styleTags>
-			<li>KigYar</li>
+			<li>KigYarHair</li>
 		</styleTags>
   </HairDef>
 
@@ -216,6 +216,30 @@
 				</disallowedTraits>
 
 			</generalSettings>
+
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>KigYarHair</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
 
 			<graphicPaths>
 				<li>

@@ -8,8 +8,11 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Feathers</texPath>
     <hairTags>
-      <li>Tvaoan</li>
+      <li>TvaoanHair</li>
     </hairTags>
+	<styleTags>
+		<li>TvaoanHair</li>
+	</styleTags>
   </HairDef>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
@@ -175,6 +178,30 @@
 				</disallowedTraits>
 
 			</generalSettings>
+
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>TvaoanHair</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
 
 			<graphicPaths>
 				<li>
