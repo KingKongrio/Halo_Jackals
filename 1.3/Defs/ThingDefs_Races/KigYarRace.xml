@@ -2,6 +2,17 @@
 
 <Defs>
 	
+	<!--  <BeardDef>
+    <defName>Bushy</defName>
+    <label>bushy</label>
+    <texPath>Things/Pawn/Humanlike/Beards/BeardBalin</texPath>
+    <styleGender>Male</styleGender>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BeardTribal</li>
+    </styleTags>
+  </BeardDef>-->
+	
 	  <HairDef>
     <defName>Quills</defName>
     <label>quills</label>
@@ -10,6 +21,9 @@
     <hairTags>
       <li>KigYar</li>
     </hairTags>
+		  <styleTags>
+			<li>KigYar</li>
+		  </styleTags>
   </HairDef>
 	
 	  <HairDef>
@@ -20,6 +34,9 @@
     <hairTags>
       <li>KigYar</li>
     </hairTags>
+		<styleTags>
+			<li>KigYar</li>
+		</styleTags>
   </HairDef>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
@@ -209,12 +226,12 @@
 				</li>
 			</graphicPaths>
 
-			<hairSettings>
+			<!--<hairSettings>
 				<hasHair>true</hasHair>
 			    <hairTags>
                  <li>KigYar</li>
 				</hairTags>
-			</hairSettings>
+			</hairSettings>-->
 
 			<raceRestriction>
 				<apparelList>

@@ -185,12 +185,12 @@
 				</li>
 			</graphicPaths>
 
-			<hairSettings>
+			<!--<hairSettings>
 				<hasHair>true</hasHair>
 			    <hairTags>
                  <li>Tvaoan</li>
 				</hairTags>
-			</hairSettings>
+			</hairSettings>-->
 
 			<raceRestriction>
 				<apparelList>

@@ -39,21 +39,6 @@
 			</li>
 		</backstoryFilters>
 
-		<hairTags>
-			<li>Rural</li>
-			<li>Tribal</li>
-			<li>Empty</li>
-		</hairTags>
-
-		<startingGoodwill>
-			<min>-10</min>
-			<max>-5</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill>
-			<min>-5</min>
-			<max>10</max>
-		</naturalColonyGoodwill>
-
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>
 		</visitorTraderKinds>
