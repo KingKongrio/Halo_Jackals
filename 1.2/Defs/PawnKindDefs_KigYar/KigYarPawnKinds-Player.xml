@@ -10,6 +10,8 @@
 		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<initialWillRange>0~0</initialWillRange>
+		<initialResistanceRange>13~21</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="BaseKigYarPawnKind">
@@ -47,6 +49,8 @@
 		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<initialWillRange>0~0</initialWillRange>
+		<initialResistanceRange>13~21</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="BaseTvaoanPawnKind">

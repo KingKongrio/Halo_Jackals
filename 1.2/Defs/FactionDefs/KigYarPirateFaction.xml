@@ -9,6 +9,15 @@
 		<pawnSingular>kig-yar pirate</pawnSingular>
 		<pawnsPlural>kig-yar pirates</pawnsPlural>
 		<basicMemberKind>KigYar</basicMemberKind>
+		<raidLootValueFromPointsCurve>
+			<points>
+				<li>(35,     15)</li>
+				<li>(100,   120)</li>
+				<li>(1000,  500)</li>
+				<li>(2000,  800)</li>
+				<li>(4000, 1000)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
 		<listOrderPriority>10</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -22,14 +31,6 @@
 				<li>(500, 1)</li>
 			</points>
 		</raidCommonalityFromPointsCurve>
-		<startingGoodwill>
-			<min>-60</min>
-			<max>-25</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill>
-			<min>-30</min>
-			<max>-10</max>
-		</naturalColonyGoodwill>
 		<leaderTitle>boss</leaderTitle>
 		<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
 		<factionIconPath>World/PirateKigYar</factionIconPath>
@@ -37,10 +38,26 @@
 			<li>(0.45, 0.05, 0.05)</li>
 			<li>(0.80, 0.25, 0.05)</li>
 		</colorSpectrum>
-		<mustStartOneEnemy>true</mustStartOneEnemy>
 		<factionNameMaker>NamerPirateFactionKigYarVillage</factionNameMaker>
 		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
+		<permanentEnemy>true</permanentEnemy>
+
+		<allowedCultures>
+			<li>KigYarKriminul</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</requiredMemes>
+		<allowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+		</allowedMemes>
+		<structureMemeWeights>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		</structureMemeWeights>
+		
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -49,9 +66,6 @@
 			</li>
 		</backstoryFilters>
 		<geneticVariance>0.8</geneticVariance>
-		<hairTags>
-			<li>Punk</li>
-		</hairTags>
 		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
 		<raidLootMaker>PirateRaidLootMaker</raidLootMaker>
 		<maxPawnCostPerTotalPointsCurve>

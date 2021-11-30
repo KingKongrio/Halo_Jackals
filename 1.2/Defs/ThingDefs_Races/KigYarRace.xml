@@ -2,14 +2,28 @@
 
 <Defs>
 	
+	<!--  <BeardDef>
+    <defName>Bushy</defName>
+    <label>bushy</label>
+    <texPath>Things/Pawn/Humanlike/Beards/BeardBalin</texPath>
+    <styleGender>Male</styleGender>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BeardTribal</li>
+    </styleTags>
+  </BeardDef>-->
+	
 	  <HairDef>
     <defName>Quills</defName>
     <label>quills</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Quills</texPath>
     <hairTags>
-      <li>KigYar</li>
+      <li>KigYarHair</li>
     </hairTags>
+		  <styleTags>
+			<li>KigYarHair</li>
+		  </styleTags>
   </HairDef>
 	
 	  <HairDef>
@@ -18,8 +32,11 @@
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/KigYar/Hairs/Scales</texPath>
     <hairTags>
-      <li>KigYar</li>
+      <li>KigYarHair</li>
     </hairTags>
+		<styleTags>
+			<li>KigYarHair</li>
+		</styleTags>
   </HairDef>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
@@ -200,6 +217,30 @@
 
 			</generalSettings>
 
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>KigYarHair</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+
 			<graphicPaths>
 				<li>
 					<headOffset>(0.1,	0.02)</headOffset>
@@ -209,12 +250,12 @@
 				</li>
 			</graphicPaths>
 
-			<hairSettings>
+			<!--<hairSettings>
 				<hasHair>true</hasHair>
 			    <hairTags>
                  <li>KigYar</li>
 				</hairTags>
-			</hairSettings>
+			</hairSettings>-->
 
 			<raceRestriction>
 				<apparelList>

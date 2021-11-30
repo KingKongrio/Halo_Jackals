@@ -38,6 +38,9 @@
 			<li>CovieWeapon</li>
 		</weaponTags>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
+	
 	</PawnKindDef>
 
 	<!-- ============================ Tvaoan Base ========================== -->
@@ -77,6 +80,8 @@
 			<li>CovieWeapon</li>
 		</weaponTags>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- ============================ Kig-Yar Civilian Base ========================== -->
@@ -118,6 +123,8 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- ============================ Tvaoan Civilian Base ========================== -->
@@ -159,6 +166,8 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- ============================ Kig-Yar Faction Civilians ========================== -->
@@ -166,11 +175,15 @@
 	<PawnKindDef ParentName="KigYarCivBase">
 		<defName>KigYarColonist</defName>
 		<label>colonist</label>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="TvaoanCivBase">
 		<defName>TvaoanColonist</defName>
 		<label>colonist</label>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="KigYarCivBase">
@@ -185,6 +198,8 @@
 			<li>SimpleGun</li>
 			<li>CovieWeapon</li>
 		</weaponTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="TvaoanCivBase">
@@ -199,6 +214,8 @@
 			<li>SimpleGun</li>
 			<li>CovieWeapon</li>
 		</weaponTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="KigYarCivBase">
@@ -209,16 +226,22 @@
 	<PawnKindDef ParentName="KigYarCivBase">
 		<defName>KigYarRefugee</defName>
 		<label>refugee</label>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="KigYarCivBase">
 		<defName>KigYarWanderer</defName>
 		<label>wanderer</label>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="TvaoanCivBase">
 		<defName>TvaoanWanderer</defName>
 		<label>wanderer</label>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 	
 	<!-- ============================ Kig-Yar Security ========================== -->
@@ -263,6 +286,8 @@
 				<max>100</max>
 			</countRange>
 		</inventoryOptions>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 
@@ -325,6 +350,8 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- ============================ Default Tvaoan Military Base ========================== -->
@@ -385,6 +412,8 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- ============================ KigYar Military ========================== -->
@@ -424,6 +453,8 @@
 		</combatEnhancingDrugsCount>
 
 		<combatPower>60</combatPower>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="KigYarBase">
@@ -518,6 +549,8 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="KigYarMilBase">
@@ -585,6 +618,8 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 	
 	<!--=============================Skirmisher Military====================================-->
@@ -686,6 +721,8 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
 	</PawnKindDef>
 	
 </Defs>

@@ -7,6 +7,15 @@
 		<description>A Kig Yar settlement.</description>
 		<pawnsPlural>Kig-Yar</pawnsPlural>
 		<basicMemberKind>KigYar</basicMemberKind>
+		<raidLootValueFromPointsCurve>
+			<points>
+				<li>(35,     15)</li>
+				<li>(100,   120)</li>
+				<li>(1000,  500)</li>
+				<li>(2000,  800)</li>
+				<li>(4000, 1000)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
 
 		<settlementGenerationWeight>.3</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -29,21 +38,6 @@
 				</categories>
 			</li>
 		</backstoryFilters>
-
-		<hairTags>
-			<li>Rural</li>
-			<li>Tribal</li>
-			<li>Empty</li>
-		</hairTags>
-
-		<startingGoodwill>
-			<min>-10</min>
-			<max>-5</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill>
-			<min>-5</min>
-			<max>10</max>
-		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>

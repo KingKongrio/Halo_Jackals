@@ -36,6 +36,43 @@
 		</comps>
 	</HediffDef>
 
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>RemoveBlamite</defName>
+		<label>Shard Extracting Procedure</label>
+		<description>This special medical operation removes the shards of subanese crystal embedded in the flesh.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing Shards.</jobString>
+		<workAmount>2000</workAmount>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<isViolation>false</isViolation>
+		<targetsBodyPart>false</targetsBodyPart>
+		<removesHediff>SuperCombination</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s embedded shards of subanese crystal.</successfullyRemovedHediffMessage>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>Human</li>
+			<li>Alien_KigYar</li>
+			<li>Alien_Tvaoan</li>
+		</recipeUsers>
+	</RecipeDef>
+
 	<DamageDef Name="Blamite">
 		<defName>Blamite</defName>
 		<label>stab</label>
